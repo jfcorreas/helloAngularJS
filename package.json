@@ -1,0 +1,22 @@
+{
+  "name": "helloAngularJS",
+  "version": "0.1.0",
+  "description": "Basic project for learn AngularJS concepts",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jfcorreas/helloAngularJS.git"
+  },
+  "author": "@jfcorreas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jfcorreas/helloAngularJS/issues"
+  },
+  "homepage": "https://github.com/jfcorreas/helloAngularJS",
+  "devDependencies": {
+    "chai": "^3.2.0"
+  }
+}
