@@ -4,7 +4,7 @@
   "description": "Basic project for learn AngularJS concepts",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "node_modules/mocha/bin/mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jfcorreas/helloAngularJS",
   "devDependencies": {
-    "chai": "^3.2.0"
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
   }
 }
