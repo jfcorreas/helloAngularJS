@@ -1,0 +1,6 @@
+git clone https://github.com/jfcorreas/helloAngularJS.git
+npm init
+npm install mocha --save-dev
+npm install chai --save-dev
+npm install angular@1.4.3 --save
+npm install -g http-server

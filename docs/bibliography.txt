@@ -1,0 +1,11 @@
+# Mocha
+http://mochajs.org/#getting-started
+
+# Chai
+http://chaijs.com/guide/
+
+# Travis
+http://docs.travis-ci.com/user/languages/javascript-with-nodejs/
+http://code.tutsplus.com/tutorials/travis-ci-what-why-how--net-34771
+
+
