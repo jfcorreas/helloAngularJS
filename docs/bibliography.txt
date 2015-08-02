@@ -8,4 +8,6 @@ http://chaijs.com/guide/
 http://docs.travis-ci.com/user/languages/javascript-with-nodejs/
 http://code.tutsplus.com/tutorials/travis-ci-what-why-how--net-34771
 
+# Google Fonts
+https://developers.google.com/fonts/docs/getting_started
 
