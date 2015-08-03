@@ -1,15 +1,18 @@
 <!doctype html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="helloAngularJS">
 <head>
   <meta charset="utf-8">
   <title>Hello AngularJS</title>
   <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/app.css">
   <script src="../node_modules/angular/angular.min.js"></script>
+  <script src="scripts/app.module.js"></script>
+  <script src="scripts/main.controller.js"></script>
 </head>
 <body>
-
-  <p>Nothing here {{'yet' + '!'}}</p>
+	<div ng-controller='MainController as main'>
+  		{{main.sayHello()}}
+  	</div>
 
 </body>
 </html>

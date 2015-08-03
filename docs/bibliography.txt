@@ -11,3 +11,6 @@ http://code.tutsplus.com/tutorials/travis-ci-what-why-how--net-34771
 # Google Fonts
 https://developers.google.com/fonts/docs/getting_started
 
+# Guía de estilo de Angular (by John Papa)
+https://github.com/johnpapa/angular-styleguide
+
