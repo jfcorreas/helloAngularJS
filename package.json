@@ -18,8 +18,14 @@
   },
   "homepage": "https://github.com/jfcorreas/helloAngularJS",
   "devDependencies": {
+    "angular-mocks": "^1.4.3",
     "chai": "^3.2.0",
-    "mocha": "^2.2.5"
+    "karma": "^0.13.7",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "mocha": "^2.2.5",
+    "phantomjs": "^1.9.17"
   },
   "dependencies": {
     "angular": "^1.4.3"

@@ -1,9 +1,3 @@
-# Mocha
-http://mochajs.org/#getting-started
-
-# Chai
-http://chaijs.com/guide/
-
 # Travis
 http://docs.travis-ci.com/user/languages/javascript-with-nodejs/
 http://code.tutsplus.com/tutorials/travis-ci-what-why-how--net-34771
@@ -14,3 +8,11 @@ https://developers.google.com/fonts/docs/getting_started
 # Guía de estilo de Angular (by John Papa)
 https://github.com/johnpapa/angular-styleguide
 
+# Karma - Mocha
+http://bendetat.com/karma-and-mocha-for-angular-testing.html
+
+# Mocha
+http://mochajs.org/#getting-started
+
+# Chai
+http://chaijs.com/guide/
