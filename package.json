@@ -4,7 +4,7 @@
   "description": "Basic project for learn AngularJS concepts",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha --reporter spec",
+    "test": "node_modules/karma/bin/karma start",
     "start": "http-server -a localhost -p 8080"
   },
   "repository": {
