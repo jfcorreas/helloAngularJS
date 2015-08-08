@@ -1,8 +1,5 @@
 'use strict';
 
-//var expect = require('chai').expect,
-//    should = require('chai').should();
-
 describe('Main Controller', function () {
   var scope, createController;
   
