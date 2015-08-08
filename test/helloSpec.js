@@ -8,23 +8,11 @@ describe('Main Controller', function () {
   
   beforeEach(module('helloAngularJS'));
   
-  beforeEach(inject(function ($injector) {
-    var $rootScope = $injector.get('$rootScope');
-    var $controller = $injector.get('$controller');
-    
-    scope = $rootScope.$new();
-    
-    createController = function () {
-      return $controller('MainController', {$scope: scope});
-    };
-  }));
-
-  it('should exist', function () {
-    true;
-  });
-  
-  afterEach(function () {
-    scope.$destroy();
+  describe('sayHello()', function() {
+    it('Should say hello', inject(function ($controller) {
+      var mainController = $controller('MainController');
+      mainController.sayHello().should.equal('Hello AngularJS');
+    }));
   });
 
 });
