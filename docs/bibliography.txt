@@ -16,3 +16,7 @@ http://mochajs.org/#getting-started
 
 # Chai
 http://chaijs.com/guide/
+
+# Karma plugins
+https://www.credera.com/blog/custom-application-development/testing-angularjs-part-2-useful-karma-plugins/
+https://github.com/karma-runner/karma-coverage (OJO, no declarar plugins en karma.conf.js)

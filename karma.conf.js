@@ -29,14 +29,24 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
+       'app/js/*.js': ['jshint','coverage']
     },
 
 
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['progress'],
+    reporters: ['progress','coverage'],
 
+    // add plugin settings
+    coverageReporter: {
+      // type of file to output, use text to output to console
+      type : 'text',
+      // directory where coverage results are saved
+      dir: 'test/coverage/'
+      // if type is text or text-summary, you can set the file name
+      // file: 'coverage.txt'
+    },
 
     // web server port
     port: 9876,
