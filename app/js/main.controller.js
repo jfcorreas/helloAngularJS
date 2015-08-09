@@ -10,6 +10,6 @@
     	/* jshint validthis: true */
     	var vm = this;
     	//this.sayHello = "NGllo AngularJS";
-    	vm.sayHello = function() { return 'Hello AngularJS' };
+    	vm.sayHello = function() { return 'Hello AngularJS'; };
     }
 })();
