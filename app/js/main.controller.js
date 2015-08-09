@@ -9,7 +9,9 @@
     function MainController() { 
     	/* jshint validthis: true */
     	var vm = this;
-    	//this.sayHello = "NGllo AngularJS";
-    	vm.sayHello = function() { return 'Hello AngularJS'; };
+
+    	vm.sayHello = sayHello;
+
+        function sayHello() { return 'Hello AngularJS'; }
     }
 })();
