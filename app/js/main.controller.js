@@ -11,6 +11,7 @@
     	var vm = this;
 
     	vm.sayHello = sayHello;
+        vm.listOfMembers = "";
 
         function sayHello() { return 'Hello AngularJS'; }
     }
