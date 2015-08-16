@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Hello AngularJS</title>
+  <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/app.css">
   <script src="../node_modules/angular/angular.min.js"></script>
@@ -10,9 +11,23 @@
   <script src="js/main.controller.js"></script>
 </head>
 <body>
-	<div ng-controller='MainController as main'>
+<div class="container" ng-controller='MainController as main'>
+  <div class="header">
+      <h3>HELLO</h3>
+  </div>
+  <div class="navigation">
+    <ul>
+      <li><a href="#">Español</a></li>  
+      <li><a href="#">Inglés</a></li> 
+    </ul>
+  </div>    
+	<div class="content">
   		{{main.sayHello()}}
-  	</div>
+  </div>
+  <div class="footer">
+      [FECHA] Meetup helloAngularJS - # asistentes
+  </div>  
+</div>
 
 </body>
 </html>
