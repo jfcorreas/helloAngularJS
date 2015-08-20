@@ -12,7 +12,19 @@
 
     	vm.sayHello = sayHello;
         vm.listOfMembers = "";
+        vm.loadMembers = loadMembers;
+
+      var members = [
+        {name: "Pepe", surname: "García"},
+        {name: "Juan", surname: "López"}
+      ];
+
+      vm.loadMembers(members);
 
         function sayHello() { return 'Hello AngularJS'; }
+        function loadMembers(members) {
+            vm.listOfMembers = members;
+        }
+
     }
 })();
