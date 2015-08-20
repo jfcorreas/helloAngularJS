@@ -21,7 +21,7 @@
 
       vm.loadMembers(members);
 
-        function sayHello() { return 'Hello AngularJS'; }
+        function sayHello(name) { return 'Hello ' + name; }
         function loadMembers(members) {
             vm.listOfMembers = members;
         }

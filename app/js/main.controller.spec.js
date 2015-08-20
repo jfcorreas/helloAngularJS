@@ -21,10 +21,10 @@ describe('Main Controller', function () {
     }));
   });
   
-  describe('sayHello()', function() {
-    it('Should say hello', inject(function ($controller) {
+  describe('sayHello(name)', function() {
+    it('Should say hello to', inject(function ($controller) {
       var mainController = $controller('MainController');
-      mainController.sayHello().should.equal('Hello AngularJS');
+      mainController.sayHello('Juan').should.equal('Hello Juan');
     }));
   });
 

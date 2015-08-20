@@ -21,8 +21,10 @@
       <li><a href="#">Inglés</a></li> 
     </ul>
   </div>    
-	<div class="content" ng-repeat="member in main.listOfMembers">
-  		{{member.name}}
+	<div class="content" >
+    <div ng-repeat="member in main.listOfMembers">
+  		{{main.sayHello(member.name)}}
+    </div>
   </div>
   <div class="footer">
       [FECHA] Meetup helloAngularJS - # asistentes
