@@ -1,5 +1,8 @@
 // main.controller.js
-(function() {
+
+// Johnpapa's angular style guide
+// [Style Y010] Wrap Angular components in an Immediately Invoked Function Expression (IIFE)
+(function() { 
     'use strict';
 
     angular

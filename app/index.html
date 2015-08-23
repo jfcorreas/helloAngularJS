@@ -11,7 +11,7 @@
   <script src="js/main.controller.js"></script>
 </head>
 <body>
-<div class="container" ng-controller='MainController as main'>
+<div class="container" ng-controller='MainController as meetup'>
   <div class="header">
       <h3>HELLO</h3>
   </div>
@@ -22,12 +22,12 @@
     </ul>
   </div>    
 	<div class="content" >
-    <div ng-repeat="member in main.listOfMembers">
-  		{{main.sayHello(member.name)}}
+    <div ng-repeat="member in meetup.listOfMembers">
+  		{{meetup.sayHello(member.name)}}
     </div>
   </div>
   <div class="footer">
-      <span>[FECHA] Meetup helloAngularJS</span> <span class="right">{{main.listOfMembers.length}} asistentes</span>
+      <span>[FECHA] Meetup helloAngularJS</span> <span class="right">{{meetup.listOfMembers.length}} asistentes</span>
   </div>  
 </div>
 
