@@ -30,6 +30,7 @@
     "phantomjs": "^1.9.17"
   },
   "dependencies": {
-    "angular": "^1.4.3"
+    "angular": "^1.4.3",
+    "bower": "^1.5.1"
   }
 }
