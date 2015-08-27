@@ -14,3 +14,6 @@ npm install --save-dev angular-mocks
 
 npm install karma-coverage --save-dev
 npm install karma-jshint-preprocessor --save-dev
+
+npm install bower --save
+bower install angular-translate --save

@@ -8,5 +8,17 @@
  *
  * Main module of the application.
  */
+
+var translations = {
+  TITLE: 'Hello AngularJS',
+  HELLO: 'Hello',
+};
+
 angular
-  .module('helloAngularJS', []);
+  .module('helloAngularJS', ['pascalprecht.translate'])
+  .config(['$translateProvider', function ($translateProvider) {
+  // add translation table
+  $translateProvider
+    .translations('en', translations)
+    .preferredLanguage('en');
+}]);
