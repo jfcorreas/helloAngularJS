@@ -2,7 +2,7 @@
 <html lang="en" ng-app="helloAngularJS">
 <head>
   <meta charset="utf-8">
-  <title>{{ 'TITLE' | translate }}</title>
+  <title translate>{{ 'TITLE' }}</title>
   <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/app.css">
@@ -14,12 +14,12 @@
 <body>
 <div class="container" ng-controller='MainController as meetup'>
   <div class="header">
-      <h3>{{ 'HELLO' | translate }}</h3>
+      <h3 translate>{{ 'HELLO' }}</h3>
   </div>
   <div class="navigation">
     <ul>
-      <li><a href="#">{{ 'SPANISH' | translate }}</a></li>  
-      <li><a href="#">{{ 'ENGLISH' | translate }}</a></li> 
+      <li><a translate href="#">{{ 'SPANISH' }}</a></li>  
+      <li><a translate href="#">{{ 'ENGLISH' }}</a></li> 
     </ul>
   </div>    
 	<div class="content" >
