@@ -26,7 +26,6 @@
 
         vm.listOfMembers = "";
         vm.loadMembers = loadMembers;
-        vm.sayHello = sayHello;
 
         var members = [
             {name: "Pepe", surname: "García"},
@@ -38,9 +37,5 @@
         function loadMembers(members) {
             vm.listOfMembers = members;
         }
-        function sayHello(name) { 
-            return 'Hello ' + name;
-        }
-
     }
 })();

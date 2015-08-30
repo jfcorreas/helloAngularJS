@@ -20,12 +20,4 @@ describe('Main Controller', function () {
       mainController.listOfMembers.should.have.length(2);
     }));
   });
-  
-  describe('sayHello(name)', function() {
-    it('Should say hello to', inject(function ($controller) {
-      var mainController = $controller('MainController');
-      mainController.sayHello('Juan').should.equal('Hello Juan');
-    }));
-  });
-
 });
