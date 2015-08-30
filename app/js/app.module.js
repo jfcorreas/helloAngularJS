@@ -12,6 +12,9 @@
 var translations = {
   TITLE: 'Hello AngularJS',
   HELLO: 'Hello',
+  SPANISH: 'Spanish',
+  ENGLISH: 'English',
+  MEMBERS: 'members'
 };
 
 angular

@@ -18,17 +18,18 @@
   </div>
   <div class="navigation">
     <ul>
-      <li><a href="#">Español</a></li>  
-      <li><a href="#">Inglés</a></li> 
+      <li><a href="#">{{ 'SPANISH' | translate }}</a></li>  
+      <li><a href="#">{{ 'ENGLISH' | translate }}</a></li> 
     </ul>
   </div>    
 	<div class="content" >
     <div ng-repeat="member in meetup.listOfMembers">
-  		{{meetup.sayHello(member.name)}}
+  		{{ 'HELLO' | translate }} {{ member.name }}
     </div>
   </div>
   <div class="footer">
-      <span>[FECHA] Meetup helloAngularJS</span> <span class="right">{{meetup.listOfMembers.length}} asistentes</span>
+      <span>[FECHA] Meetup helloAngularJS</span>
+      <span class="right">{{meetup.listOfMembers.length}} {{ 'MEMBERS' | translate }}</span>
   </div>  
 </div>
 
