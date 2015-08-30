@@ -19,13 +19,14 @@
 
     angular
         .module('helloAngularJS')
-        .controller('MainController', MainController);
+        .controller('MainController', ['$translate', MainController]);
 
-    function MainController() { 
+    function MainController($translate) { 
         var vm = this;
 
         vm.listOfMembers = "";
         vm.loadMembers = loadMembers;
+        vm.changeLanguage = changeLanguage;
 
         var members = [
             {name: "Pepe", surname: "García"},
@@ -36,6 +37,10 @@
 
         function loadMembers(members) {
             vm.listOfMembers = members;
+        }
+
+        function changeLanguage(langKey) {
+            $translate.use(langKey);
         }
     }
 })();

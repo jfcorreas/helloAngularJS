@@ -20,4 +20,17 @@ describe('Main Controller', function () {
       mainController.listOfMembers.should.have.length(2);
     }));
   });
+
+  describe('Change Language', function() {
+    it('Should exist', inject(function($controller) {
+      var mainController = $controller('MainController');
+      mainController.changeLanguage.should.exist;
+    }));
+    it('Should change the language', inject(function($controller) {
+      var mainController = $controller('MainController');
+
+      mainController.changeLanguage('es');
+      // TODO $translate.proposedLanguage().should.equal('es');
+    }));
+  });
 });
